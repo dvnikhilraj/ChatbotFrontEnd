@@ -1,0 +1,4 @@
+export const SEND_MESSAGE = 'MESSAGE_FROM_CLIENT';
+export const GET_CHAT_HISTORY = 'GET_CHAT_HISTORY';
+export const RESET_CHAT = 'RESET_CHAT';
+export const SET_CONTEXT = 'SET_CONTEXT';

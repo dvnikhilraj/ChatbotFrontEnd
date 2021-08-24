@@ -1,0 +1,28 @@
+#InsuranceForm .form-group
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#InsuranceForm label
+{
+    width : 40%;
+    font-size: 14px;
+    float: left;
+}
+#InsuranceForm .form-group div span
+{
+    margin-top: 5px;
+    color: #d70a0a;
+}
+
+#InsuranceForm input[type=submit] 
+{
+    padding: 5px;
+    background: white;
+    color: #007FEF;
+}
+input[type=submit]:disabled
+{
+    opacity: 0.6;
+    cursor:not-allowed;
+}

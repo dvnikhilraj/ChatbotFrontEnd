@@ -1,0 +1,40 @@
+#PrimaryUsageForm .form-group
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#PrimaryUsageForm label
+{
+    width : 30%;
+    font-size: 14px;
+    float: left;
+}
+#PrimaryUsageForm .form-group div span
+{
+    margin-top: 5px;
+    color: #d70a0a;
+}
+
+#PrimaryUsageForm input[type=submit] 
+{
+    padding: 5px;
+    background: white;
+    color: #007FEF;
+}
+
+#PrimaryUsageForm .form-group
+{
+    width: 100%;
+    float: left;
+}
+
+#PrimaryUsageForm textarea{
+    width: 70%;
+    float: left;
+}
+
+input[type=submit]:disabled
+{
+    opacity: 0.6;
+    cursor:not-allowed;
+}
